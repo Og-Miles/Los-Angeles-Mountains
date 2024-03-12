@@ -40,12 +40,12 @@ export default function CarouselTree() {
   };
 
   return (
-    <div className='mx-auto flex'>
+    <div className='mx-auto flex max-w-5xl'>
       {/* Add a wrapper div to apply custom styles */}
-      <div className='mx-auto flex justify-between gap-2'>
+      <div className='mx-auto flex justify-between '>
         <Slider
           {...settings}
-          className=' flex max-w-40 lg:max-w-5xl gap-2 justify-between'
+          className='flex w-[250px] lg:w-[900px] justify-between'
         >
           <div>
             <img src={carousel1} alt='mountain-man' />

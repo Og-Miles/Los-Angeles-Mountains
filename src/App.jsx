@@ -55,7 +55,7 @@ const App = ({ color }) => {
           </p>
         </div>
 
-        <div className='absolute bottom-0 min-h-32 max-w-screen-2xl bg-[#414f6b] bg-opacity-80 pt-3 w-full'>
+        <div className='absolute bottom-0 min-h-32 max-w-screen bg-[#414f6b] bg-opacity-80 pt-3 w-full'>
           <CarouselTree />
         </div>
       </section>
@@ -115,7 +115,7 @@ const App = ({ color }) => {
             })`,
           }}
         >
-          <div className='bg-white opacity-65 py-4 px-8 flex flex-col max-w-[400px] min-h-[300px] font-lato text-slate-900 absolute bottom-24 lg:bottom-80 left-20 lg:left-96'>
+          <div className='bg-white opacity-65 py-4 px-8 flex flex-col w-[400px] min-h-[300px] font-lato text-slate-900 absolute bottom-24 lg:bottom-80 left-20 lg:left-96'>
             <h1 className='uppercase font-bebas text-[42px] w-fit'>schedule</h1>
             <p className='flex justify-between'>
               {" "}

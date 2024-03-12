@@ -8,3 +8,14 @@ body{
   background-color: #414f6b;
   font-family: Lato, sans-serif;
 }
+
+.slick-list{
+  width: 850px;
+  gap: 10px;
+}
+@media screen and (max-width: 412px) {
+  .slick-list{
+    width: 220px;
+    gap: 10px;
+  }
+}
